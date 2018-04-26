@@ -15,3 +15,7 @@ function togglePlay() {
     video.pause();
   }
 }
+
+// event listeners
+video.addEventListener("click", togglePlay);
+toggle.addEventListener("click", togglePlay);
